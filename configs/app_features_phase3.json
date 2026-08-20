@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1.0",
+  "selected_model_features": [
+    "age_years",
+    "waist_cm",
+    "bmi",
+    "physically_active",
+    "diastolic_bp",
+    "systolic_bp"
+  ],
+  "form_fields": [
+    {
+      "name": "age_years",
+      "widget": "integer_stepper",
+      "label": "Age",
+      "unit": "years",
+      "minimum": 20,
+      "maximum": 80
+    },
+    {
+      "name": "bmi",
+      "widget": "derived_read_only",
+      "label": "Body mass index",
+      "unit": "kg/m\u00b2",
+      "derive_from": [
+        "height_cm",
+        "weight_kg"
+      ]
+    },
+    {
+      "name": "waist_cm",
+      "widget": "decimal_input",
+      "label": "Waist circumference",
+      "unit": "cm",
+      "minimum": 40,
+      "maximum": 200
+    },
+    {
+      "name": "systolic_bp",
+      "widget": "integer_input",
+      "label": "Systolic blood pressure",
+      "unit": "mmHg",
+      "minimum": 40,
+      "maximum": 260
+    },
+    {
+      "name": "diastolic_bp",
+      "widget": "integer_input",
+      "label": "Diastolic blood pressure",
+      "unit": "mmHg",
+      "minimum": 20,
+      "maximum": 160
+    },
+    {
+      "name": "physically_active",
+      "widget": "yes_no",
+      "label": "Regular moderate/vigorous activity or active transport",
+      "help": "At least 10 continuous minutes in a typical week"
+    }
+  ],
+  "supporting_inputs": {
+    "height_cm": {
+      "widget": "decimal_input",
+      "label": "Height",
+      "unit": "cm",
+      "minimum": 100,
+      "maximum": 250
+    },
+    "weight_kg": {
+      "widget": "decimal_input",
+      "label": "Weight",
+      "unit": "kg",
+      "minimum": 20,
+      "maximum": 300
+    }
+  },
+  "safety_text": "Educational research only; this result is not a diagnosis or medical advice."
+}

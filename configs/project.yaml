@@ -1,0 +1,45 @@
+project:
+  name: clinical-ai-portfolio
+  stage: phase-8-release-ready
+  educational_only: true
+
+cohort:
+  dataset: nhanes-2017-march-2020-pre-pandemic
+  minimum_age: 20
+  exclude_pregnancy: true
+  participant_key: SEQN
+
+outcome:
+  type: current_status
+  provisional_positive_if:
+    - "DIQ010 == 1"
+    - "LBXGH >= 6.5"
+  observable_negative_if:
+    - "DIQ010 in [2, 3] and LBXGH < 6.5"
+
+prohibited_predictors:
+  - DIQ010
+  - LBXGH
+  - diabetes_treatment_variables
+  - post_outcome_variables
+
+split:
+  random_state: 20260819
+  train_fraction: 0.70
+  validation_fraction: 0.15
+  test_fraction: 0.15
+
+app_feature_selection:
+  method: train-only-mutual-information
+  maximum_features: 6
+
+deployment:
+  model_artifacts: deployment/model
+  api_artifacts: deployment/api
+  model_version: 1.0.0
+  api_version: v1
+  web_client: web
+  android_client: android
+  huggingface_template: deployment/huggingface
+  github_repository: https://github.com/bearstree/clinical-ai-portfolio
+  huggingface_space: https://huggingface.co/spaces/weiyi/clinical-diabetes-screening

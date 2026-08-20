@@ -1,0 +1,45 @@
+# Public source data are downloadable but are not redistributed in this repository.
+data/raw/**
+!data/raw/**/
+!data/raw/**/README.md
+!data/raw/**/manifest.sha256
+data/interim/**
+data/processed/**
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Model and deployment artifacts
+models/
+deployment/model/*
+!deployment/model/README.md
+!deployment/model/manifest.json
+!deployment/model/clinical_diabetes_screening_v1.joblib
+deployment/api/*
+!deployment/api/README.md
+!deployment/api/__init__.py
+!deployment/api/app.py
+!deployment/api/Dockerfile
+!deployment/api/openapi.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Editors, notebooks, secrets, and local configuration
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

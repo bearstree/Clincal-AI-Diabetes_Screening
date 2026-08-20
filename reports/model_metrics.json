@@ -1,0 +1,219 @@
+{
+  "model_version": "1.0.0",
+  "selected_candidate": "logistic_compact_diastolic",
+  "features": [
+    "age_years",
+    "waist_cm",
+    "physically_active",
+    "diastolic_bp"
+  ],
+  "selection_rule": "lowest weighted validation Brier within 0.005 ROC-AUC of best",
+  "candidate_comparison": [
+    {
+      "candidate": "logistic_compact_diastolic",
+      "feature_count": 4,
+      "roc_auc": 0.7715670260876714,
+      "pr_auc": 0.32453032877839755,
+      "brier": 0.10468646626719627,
+      "log_loss": 0.34108956193746987
+    },
+    {
+      "candidate": "logistic_no_diastolic",
+      "feature_count": 5,
+      "roc_auc": 0.7708565190029337,
+      "pr_auc": 0.31185911883507883,
+      "brier": 0.10523553033558745,
+      "log_loss": 0.34160062300561994
+    },
+    {
+      "candidate": "logistic_compact_systolic",
+      "feature_count": 4,
+      "roc_auc": 0.7710707006999388,
+      "pr_auc": 0.310893741200019,
+      "brier": 0.10526062942724956,
+      "log_loss": 0.341836365312856
+    },
+    {
+      "candidate": "logistic_six",
+      "feature_count": 6,
+      "roc_auc": 0.7722204943942158,
+      "pr_auc": 0.30941113905995005,
+      "brier": 0.10535721839221812,
+      "log_loss": 0.34196800140319666
+    },
+    {
+      "candidate": "logistic_no_bmi",
+      "feature_count": 5,
+      "roc_auc": 0.7723779701132456,
+      "pr_auc": 0.3083629285285647,
+      "brier": 0.10536239765446381,
+      "log_loss": 0.3421331406852709
+    },
+    {
+      "candidate": "hist_gradient_six",
+      "feature_count": 6,
+      "roc_auc": 0.7674956462398046,
+      "pr_auc": 0.3183486298650393,
+      "brier": 0.1067394503890723,
+      "log_loss": 0.34488590641177364
+    },
+    {
+      "candidate": "prevalence_baseline",
+      "feature_count": 6,
+      "roc_auc": 0.5,
+      "pr_auc": 0.1355733330087887,
+      "brier": 0.11727718643517204,
+      "log_loss": 0.39719106057847786
+    }
+  ],
+  "validation_weighted": {
+    "roc_auc": 0.7715670260876714,
+    "pr_auc": 0.32453032877839755,
+    "brier": 0.10468646626719627,
+    "log_loss": 0.34108956193746987
+  },
+  "validation_threshold": {
+    "threshold": 0.13012152100670846,
+    "sensitivity": 0.8013892311289379,
+    "specificity": 0.6279512192385488,
+    "ppv": 0.252517187926323,
+    "npv": 0.9527396181070946
+  },
+  "test_unweighted": {
+    "roc_auc": 0.7741516420809811,
+    "pr_auc": 0.4312266608176104,
+    "brier": 0.14493906273753518,
+    "log_loss": 0.44202382129921647
+  },
+  "test_weighted": {
+    "roc_auc": 0.7709692593757205,
+    "pr_auc": 0.3960410718133408,
+    "brier": 0.11711628210133133,
+    "log_loss": 0.37635547882583764
+  },
+  "test_threshold_unweighted": {
+    "threshold": 0.13012152100670846,
+    "sensitivity": 0.8274509803921568,
+    "specificity": 0.6130030959752322,
+    "ppv": 0.36006825938566556,
+    "npv": 0.9310344827586207
+  },
+  "test_threshold_weighted": {
+    "threshold": 0.13012152100670846,
+    "sensitivity": 0.7712638251193521,
+    "specificity": 0.6556474248031575,
+    "ppv": 0.2997592490017101,
+    "npv": 0.9374890252851477
+  },
+  "test_bootstrap_95_percent_interval": {
+    "roc_auc": [
+      0.7437060797848886,
+      0.8027754309632719
+    ],
+    "brier": [
+      0.13263966629107285,
+      0.15900936568260565
+    ]
+  },
+  "test_subgroups_unweighted": [
+    {
+      "family": "age",
+      "group": "20-39",
+      "n": 366,
+      "roc_auc": 0.7894736842105263,
+      "pr_auc": 0.21455381488211814,
+      "brier": 0.04605977245838416,
+      "log_loss": 0.17992329981021582
+    },
+    {
+      "family": "age",
+      "group": "40-59",
+      "n": 389,
+      "roc_auc": 0.7309630213810026,
+      "pr_auc": 0.3818789851842044,
+      "brier": 0.14102123596162622,
+      "log_loss": 0.4444837035564848
+    },
+    {
+      "family": "age",
+      "group": "60+",
+      "n": 469,
+      "roc_auc": 0.6224410235905639,
+      "pr_auc": 0.4647201151999737,
+      "brier": 0.2253523993217524,
+      "log_loss": 0.6445225348746897
+    },
+    {
+      "family": "sex",
+      "group": "0.0",
+      "n": 590,
+      "roc_auc": 0.760228516694034,
+      "pr_auc": 0.4240222618301044,
+      "brier": 0.15014456162521436,
+      "log_loss": 0.45552493858573084
+    },
+    {
+      "family": "sex",
+      "group": "1.0",
+      "n": 634,
+      "roc_auc": 0.7853250441323201,
+      "pr_auc": 0.4420814851366871,
+      "brier": 0.14009482875688736,
+      "log_loss": 0.4294596900704413
+    },
+    {
+      "family": "race_ethnicity",
+      "group": "Mexican American",
+      "n": 157,
+      "roc_auc": 0.8670143415906129,
+      "pr_auc": 0.6153271074180334,
+      "brier": 0.16949572897496012,
+      "log_loss": 0.4909142486655874
+    },
+    {
+      "family": "race_ethnicity",
+      "group": "Non-Hispanic Asian",
+      "n": 162,
+      "roc_auc": 0.7710655950220379,
+      "pr_auc": 0.40843351962029817,
+      "brier": 0.13882064009999806,
+      "log_loss": 0.43705793306231167
+    },
+    {
+      "family": "race_ethnicity",
+      "group": "Non-Hispanic Black",
+      "n": 303,
+      "roc_auc": 0.828969957081545,
+      "pr_auc": 0.5349095430282156,
+      "brier": 0.1471402765630888,
+      "log_loss": 0.43760480911128513
+    },
+    {
+      "family": "race_ethnicity",
+      "group": "Non-Hispanic White",
+      "n": 418,
+      "roc_auc": 0.7472448224852071,
+      "pr_auc": 0.3932087580275686,
+      "brier": 0.1365244742831995,
+      "log_loss": 0.426823935289119
+    },
+    {
+      "family": "race_ethnicity",
+      "group": "Other Hispanic",
+      "n": 134,
+      "roc_auc": 0.7775974025974026,
+      "pr_auc": 0.3765041896827967,
+      "brier": 0.12176450319726828,
+      "log_loss": 0.38212463601915336
+    },
+    {
+      "family": "race_ethnicity",
+      "group": "Other/multiracial",
+      "n": 50,
+      "roc_auc": 0.7276190476190476,
+      "pr_auc": 0.5900384738875787,
+      "brier": 0.2067692433609482,
+      "log_loss": 0.6189774347102317
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+:root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #132a2d; background: #eef5f3; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.shell { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 56px 0 80px; }
+header { max-width: 720px; }
+h1 { margin: 8px 0 16px; font-size: clamp(2.25rem, 7vw, 4.5rem); line-height: .98; letter-spacing: -.045em; }
+.eyebrow { margin: 0; color: #14746f; font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.lede { color: #456166; font-size: 1.12rem; line-height: 1.6; }
+.notice { margin: 32px 0 18px; padding: 16px 18px; border-left: 4px solid #e09f3e; background: #fff8e8; font-weight: 650; }
+.card { padding: clamp(20px, 5vw, 36px); border: 1px solid #cfddda; border-radius: 18px; background: #fff; box-shadow: 0 12px 34px rgb(22 65 62 / 8%); }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+label { display: grid; gap: 7px; font-weight: 750; }
+label span { color: #678083; font-size: .82rem; font-weight: 500; }
+input, select { width: 100%; padding: 12px 13px; border: 1px solid #9cb3b0; border-radius: 9px; background: #fff; color: inherit; font: inherit; }
+input:focus, select:focus, button:focus-visible { outline: 3px solid #87d7cc; outline-offset: 2px; }
+button { margin-top: 26px; padding: 13px 18px; border: 0; border-radius: 9px; background: #075e59; color: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+button:hover { background: #064b47; }
+button:disabled { opacity: .65; cursor: wait; }
+.status { min-height: 1.4em; margin-bottom: 0; color: #a23b3b; }
+.result { margin-top: 18px; border-top: 5px solid #14746f; }
+.probability { margin: 8px 0; font-size: clamp(2.6rem, 8vw, 5rem); font-weight: 850; letter-spacing: -.05em; }
+dl { display: flex; flex-wrap: wrap; gap: 28px; }
+dt { color: #678083; font-size: .8rem; } dd { margin: 4px 0 0; font-weight: 750; }
+.fineprint { padding-top: 16px; border-top: 1px solid #dbe5e3; color: #5c7376; font-size: .88rem; line-height: 1.5; }
+@media (max-width: 620px) { .shell { padding-top: 32px; } .grid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

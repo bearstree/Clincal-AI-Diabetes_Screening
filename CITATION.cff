@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this educational project, cite the repository and the NHANES source files."
+title: "Clinical AI Portfolio"
+type: software
+version: 0.1.0
+date-released: 2026-08-19
+license: MIT
+authors:
+  - name: "Clinical AI Portfolio Contributors"
+repository-code: "https://github.com/bearstree/clinical-ai-portfolio"

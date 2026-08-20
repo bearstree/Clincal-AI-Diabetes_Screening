@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "model_version": "1.0.0",
+  "selected_model_features": [
+    "age_years",
+    "waist_cm",
+    "physically_active",
+    "diastolic_bp"
+  ],
+  "form_fields": [
+    {"name": "age_years", "widget": "integer_stepper", "label": "Age", "unit": "years", "minimum": 20, "maximum": 80},
+    {"name": "waist_cm", "widget": "decimal_input", "label": "Waist circumference", "unit": "cm", "minimum": 40, "maximum": 200},
+    {"name": "diastolic_bp", "widget": "integer_input", "label": "Diastolic blood pressure", "unit": "mmHg", "minimum": 20, "maximum": 160},
+    {"name": "physically_active", "widget": "yes_no", "label": "Regular moderate/vigorous activity or active transport", "help": "At least 10 continuous minutes in a typical week"}
+  ],
+  "safety_text": "Educational research only; this result is not a diagnosis or medical advice."
+}
