@@ -37,8 +37,8 @@ The app requests only Internet permission and retains no input or result. A phys
 ## Docker and Hugging Face Space
 
 ```powershell
-docker build -f deployment/api/Dockerfile -t clinical-ai:1.0.0 .
-docker run --read-only --tmpfs /tmp -p 8000:8000 clinical-ai:1.0.0
+docker build -f deployment/api/Dockerfile -t clincal-ai-diabetes-screening:1.0.0 .
+docker run --read-only --tmpfs /tmp -p 8000:8000 clincal-ai-diabetes-screening:1.0.0
 python scripts/build_hf_space.py
 ```
 

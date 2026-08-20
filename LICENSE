@@ -1,22 +1,54 @@
-MIT License
+Personal Use License 1.0
 
-Copyright (c) 2026 Clinical AI Portfolio Contributors
+Copyright (c) 2026 Clinical AI Portfolio Contributors. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Personal permission
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Subject to this License, an individual may view, download, run, copy, and
+modify this software and its accompanying original documentation solely for
+that individual's personal, non-commercial use.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Commercial use requires approval
 
+Any commercial use requires the copyright holder's prior written approval.
+Commercial use includes, without limitation, use for monetary compensation;
+use by or for a business, employer, client, or commercial organization; use in
+a product or service; sale, licensing, paid hosting, consulting, advertising,
+revenue generation, or internal business operations. To request approval,
+contact the repository owner through:
+
+https://github.com/bearstree/Clincal-AI-Diabetes_Screening
+
+Silence or repository access does not constitute approval.
+
+3. Redistribution
+
+Redistribution is permitted only for personal, non-commercial purposes and
+only if this License, the copyright notice, the model card, the attribution
+notices, and all use restrictions remain intact. Sublicensing is prohibited.
+
+4. Prohibited uses
+
+The software and model may not be used for diagnosis, treatment, triage,
+prescribing, emergency decisions, or clinical decision-making. They may not be
+used to identify or re-identify a person or to violate privacy or other law.
+
+5. Data and third-party materials
+
+This License covers only original repository code, documentation, and model
+output to the extent the copyright holder has rights in them. NHANES data and
+third-party software remain subject to their respective terms and licenses.
+
+6. No warranty
+
+THE SOFTWARE AND MODEL ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, NON-INFRINGEMENT, ACCURACY, CLINICAL VALIDITY, OR SAFETY. TO THE
+MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDERS ARE NOT LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF OR INABILITY TO USE THE
+SOFTWARE OR MODEL.
+
+7. Termination
+
+Permission terminates automatically upon violation of this License. Sections
+2 through 7 survive termination.

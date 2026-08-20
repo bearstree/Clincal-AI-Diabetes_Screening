@@ -1,6 +1,6 @@
-# Clinical AI Portfolio
+# Clincal AI Diabetes Screening
 
-[Live web application](https://weiyi-clinical-diabetes-screening.hf.space) · [Hugging Face Space](https://huggingface.co/spaces/weiyi/clinical-diabetes-screening) · [API documentation](https://weiyi-clinical-diabetes-screening.hf.space/docs)
+[Live web application](https://weiyi-clincal-ai-diabetes-screening.hf.space) · [Hugging Face Space](https://huggingface.co/spaces/weiyi/Clincal-AI-Diabetes_Screening) · [API documentation](https://weiyi-clincal-ai-diabetes-screening.hf.space/docs)
 
 An end-to-end, clinical AI portfolio project using public-use CDC NHANES data: reproducible preprocessing, an evaluated screening model, a versioned API, a responsive web client, and a native Android client.
 
@@ -41,7 +41,6 @@ Open <http://127.0.0.1:8000> for the web app or <http://127.0.0.1:8000/docs> for
 ## Documentation
 
 - `notebooks/01_end_to_end_clinical_ai_workflow.ipynb`: overall roadmap
-- `step_by_step.ipynb`: cumulative implementation record and commands
 - `docs/governance/`: Phase 0 decisions, risks, and acceptance gates
 - `docs/data_source_decision.md`: dataset provenance and selection
 - `docs/data_dictionary.md`: analytical variables and derivations
@@ -59,4 +58,4 @@ Open <http://127.0.0.1:8000> for the web app or <http://127.0.0.1:8000/docs> for
 
 ## License
 
-Original repository code and documentation are MIT licensed. Dataset files remain governed by their source terms and are not covered by this software license. See `LICENSE` and `NOTICE`.
+Original repository code, documentation, and model output are available for personal, non-commercial use only. Commercial use requires prior written approval from the copyright holder. Dataset files and third-party software remain governed by their own terms. See `LICENSE`, `NOTICE`, and `THIRD_PARTY_NOTICES.md`.

@@ -2,11 +2,11 @@
 
 ## Rights and licenses
 
-Original source code and documentation are copyright 2026 Clinical AI Portfolio Contributors and are offered under MIT (`LICENSE`). Contributions are accepted under the same license. The license grants broad software reuse but provides no warranty, clinical validity, or fitness for a particular purpose.
+Original source code and documentation are copyright 2026 Clinical AI Portfolio Contributors and are available under the custom Personal Use License (`LICENSE`). Individuals may use, copy, run, and modify them only for personal, non-commercial purposes. Any commercial use—including business, employer, client, paid hosting, product, service, consulting, advertising, revenue-generating, or internal business use—requires the copyright holder's prior written approval. Silence or public availability is not approval. Contributions are accepted under the same terms. The software has no warranty, clinical-validity claim, or fitness guarantee.
 
 NHANES files, labels, documentation, and agency marks are not relicensed. Users must follow current CDC/NCHS public-use terms, analytic guidance, citation practice, and disclosure restrictions. This repository does not redistribute participant data and makes no endorsement claim. See `NOTICE` and `THIRD_PARTY_NOTICES.md`.
 
-The fitted artifact is repository output under the project license to the extent copyright applies; it must remain paired with its model card, checksum manifest, safety notice, and source-data attribution. Third-party packages keep their own licenses. Before each release, generate and review Python and Gradle dependency/license inventories; do not assume MIT compatibility from package availability alone.
+The fitted artifact is repository output under the project license to the extent copyright applies; it must remain paired with its model card, checksum manifest, safety notice, and source-data attribution. Third-party packages keep their own licenses. Before each release, generate and review Python and Gradle dependency/license inventories; do not assume compatibility from package availability alone.
 
 ## Attribution checklist
 

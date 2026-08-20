@@ -1,4 +1,4 @@
-# Model Card: Clinical Diabetes Screening Research Model 1.0.0
+# Model Card: Clincal AI Diabetes Screening Model 1.0.0
 
 ## Summary
 
@@ -54,4 +54,3 @@ Unweighted test ROC-AUC was 0.789 for ages 20–39, 0.731 for ages 40–59, and 
 ## Reproducibility and provenance
 
 The binary artifact is Git-ignored. `deployment/model/manifest.json` records its SHA-256, analytical-data SHA-256, feature order, threshold, and metrics pointer. Rebuild with `scripts/train_phase4.py`. The API verifies the binary checksum before loading it.
-

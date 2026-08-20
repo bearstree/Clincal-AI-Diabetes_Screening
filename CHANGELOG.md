@@ -4,6 +4,13 @@ All notable changes follow Keep a Changelog conventions. Versions follow Semanti
 
 ## [Unreleased]
 
+### Changed
+
+- Renamed the GitHub repository and Hugging Face Space to `Clincal-AI-Diabetes_Screening`.
+- Replaced the MIT license with the Personal Use License: personal, non-commercial use only; commercial use requires prior written approval.
+- Removed the retired wording from the repository, API, model bundle, web client, Android client, and deployment card.
+- Rebuilt the model artifact and OpenAPI document; model performance and threshold are unchanged.
+
 ### Added
 
 - Phase 0 governance and clinical-question artifacts.

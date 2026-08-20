@@ -16,7 +16,10 @@ from pydantic import BaseModel, ConfigDict, Field, StrictBool
 
 DEFAULT_MODEL_DIR = Path(__file__).parents[1] / "model"
 DEFAULT_WEB_DIR = Path(__file__).parents[2] / "web"
-SAFETY_NOTICE = "Educational research only; not a diagnosis or medical advice."
+SAFETY_NOTICE = (
+    "Research use only; personal non-commercial use only; commercial use requires prior "
+    "written approval; not a diagnosis or medical advice."
+)
 
 
 class PredictionRequest(BaseModel):
@@ -52,7 +55,7 @@ def load_bundle() -> dict[str, Any]:
 
 
 def create_app(bundle: dict[str, Any] | None = None) -> FastAPI:
-    app = FastAPI(title="Clinical Diabetes Screening Research API", version="1.0.0")
+    app = FastAPI(title="Clincal AI Diabetes Screening API", version="1.0.0")
     origins = [
         value.strip()
         for value in os.getenv("CLINICAL_ALLOWED_ORIGINS", "").split(",")

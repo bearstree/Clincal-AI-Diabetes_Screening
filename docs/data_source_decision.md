@@ -24,9 +24,8 @@ Accessed: 2026-08-19. Exact SHA-256 values are in `data/raw/nhanes_2017_2020/man
 
 ## Terms and handling
 
-The selected files are public-use, de-identified survey files. They remain governed by CDC/NCHS source terms and documentation and are not relicensed under the repository's MIT License. Raw or derived participant-level files are excluded from Git and the public application. The project will cite NHANES and state that CDC/NCHS does not endorse it.
+The selected files are public-use, de-identified survey files. They remain governed by CDC/NCHS source terms and documentation and are not relicensed under the repository's Personal Use License. Raw or derived participant-level files are excluded from Git and the public application. The project will cite NHANES and state that CDC/NCHS does not endorse it.
 
 ## Known limitations
 
 Cross-sectional measurement does not establish causality or future risk. Self-report can be misclassified. HbA1c availability and missingness can select the analytical cohort. Survey design affects population inference. The non-institutionalized U.S. population and pre-pandemic collection period limit transportability.
-

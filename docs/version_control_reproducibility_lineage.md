@@ -15,7 +15,7 @@ git push -u origin feature/short-description
 For first publication, create an empty public GitHub repository, then:
 
 ```powershell
-git remote add origin https://github.com/OWNER/clinical-ai-portfolio.git
+git remote add origin https://github.com/OWNER/Clincal-AI-Diabetes_Screening.git
 git push -u origin main
 ```
 
@@ -46,4 +46,4 @@ mypy src
 pytest
 ```
 
-Tagged GitHub releases run an artifact attestation for the model. Verify it with `gh attestation verify deployment/model/clinical_diabetes_screening_v1.joblib -R OWNER/clinical-ai-portfolio`.
+Tagged GitHub releases run an artifact attestation for the model. Verify it with `gh attestation verify deployment/model/clinical_diabetes_screening_v1.joblib -R OWNER/Clincal-AI-Diabetes_Screening`.

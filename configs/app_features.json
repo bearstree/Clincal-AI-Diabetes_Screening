@@ -13,5 +13,5 @@
     {"name": "diastolic_bp", "widget": "integer_input", "label": "Diastolic blood pressure", "unit": "mmHg", "minimum": 20, "maximum": 160},
     {"name": "physically_active", "widget": "yes_no", "label": "Regular moderate/vigorous activity or active transport", "help": "At least 10 continuous minutes in a typical week"}
   ],
-  "safety_text": "Educational research only; this result is not a diagnosis or medical advice."
+  "safety_text": "Research use only; personal non-commercial use only; commercial use requires prior written approval. This result is not a diagnosis or medical advice."
 }

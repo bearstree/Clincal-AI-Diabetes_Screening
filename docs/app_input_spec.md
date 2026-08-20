@@ -4,7 +4,7 @@ Validation ablation reduced the provisional six-feature form to four inputs with
 
 ```text
 ┌──────────────────────────────────────────┐
-│ Educational diabetes screening demo     │
+│ Diabetes screening research demo     │
 │ Not a diagnosis or medical advice       │
 ├──────────────────────────────────────────┤
 │ Age [  ] years                           │
@@ -23,7 +23,7 @@ Validation ablation reduced the provisional six-feature form to four inputs with
 - Do not infer or default any value, including activity.
 - Validate on blur and submission; never silently clip values.
 - Preserve input after recoverable network errors but do not persist it by default.
-- Show the educational-use notice before submission and on results.
+- Show the research-use notice before submission and on results.
 - Display probability as a research estimate. If the validation-derived flag is shown, call it a screening flag and explain that test sensitivity was lower than the validation target.
 
 The model uses diastolic—not systolic—pressure because the prespecified validation ablation had better probability error and equivalent discrimination. This unusual choice is dataset-specific and reinforces that the system is not a clinical rule.

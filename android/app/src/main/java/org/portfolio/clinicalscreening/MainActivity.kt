@@ -35,7 +35,7 @@ fun ScreeningApp() {
     Scaffold { padding ->
         Column(Modifier.padding(padding).verticalScroll(rememberScrollState()).padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text("Diabetes screening research tool", style = MaterialTheme.typography.headlineLarge)
-            Text("Educational research only—not a diagnosis or medical advice.", color = MaterialTheme.colorScheme.error)
+            Text("Personal, non-commercial research use only. Commercial use requires prior written approval. Not a diagnosis or medical advice.", color = MaterialTheme.colorScheme.error)
             NumberField("Age (20–80 years)", age) { age = it }
             NumberField("Waist circumference (40–200 cm)", waist) { waist = it }
             NumberField("Diastolic blood pressure (20–160 mmHg)", diastolic) { diastolic = it }

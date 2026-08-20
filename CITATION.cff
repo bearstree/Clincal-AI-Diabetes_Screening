@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this educational project, cite the repository and the NHANES source files."
-title: "Clinical AI Portfolio"
+message: "If you use this research project, cite the repository and the NHANES source files."
+title: "Clincal AI Diabetes Screening"
 type: software
 version: 0.1.0
 date-released: 2026-08-19
-license: MIT
+license-url: "https://github.com/bearstree/Clincal-AI-Diabetes_Screening/blob/main/LICENSE"
 authors:
   - name: "Clinical AI Portfolio Contributors"
-repository-code: "https://github.com/bearstree/clinical-ai-portfolio"
+repository-code: "https://github.com/bearstree/Clincal-AI-Diabetes_Screening"

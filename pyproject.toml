@@ -3,12 +3,12 @@ requires = ["setuptools==80.9.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "clinical-ai-portfolio"
+name = "Clincal-AI-Diabetes_Screening"
 version = "0.1.0"
-description = "Educational end-to-end clinical AI portfolio project"
+description = "Research-focused diabetes screening AI portfolio project"
 readme = "README.md"
 requires-python = ">=3.14,<3.15"
-license = "MIT"
+license = { file = "LICENSE" }
 dependencies = [
   "fastapi==0.141.1",
   "joblib==1.5.3",

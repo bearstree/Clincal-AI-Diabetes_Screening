@@ -4,7 +4,7 @@ from clinical_ml import PROJECT_STAGE, SAFETY_NOTICE
 
 
 def test_safety_metadata_is_explicit() -> None:
-    assert PROJECT_STAGE == "phase-5-model-api"
+    assert PROJECT_STAGE == "phase-8-release-ready"
     assert "not a diagnosis" in SAFETY_NOTICE
 
 

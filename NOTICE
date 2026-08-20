@@ -1,11 +1,11 @@
-Clinical AI Portfolio
+Clincal AI Diabetes Screening
 Copyright (c) 2026 Clinical AI Portfolio Contributors
 
 DATA NOTICE
 This repository is designed to use public-use National Health and Nutrition
 Examination Survey (NHANES) files published by the U.S. Centers for Disease
 Control and Prevention, National Center for Health Statistics. Dataset files
-are not licensed under this repository's MIT License and are not redistributed
+are not licensed under this repository's Personal Use License and are not redistributed
 through Git. Users must review the applicable CDC/NCHS terms, documentation,
 analytic guidance, and citation expectations at the time of use.
 

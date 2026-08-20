@@ -2,7 +2,7 @@
 
 ## Intended use
 
-Develop an educational research model that estimates the probability that an adult aged 20 or older in the NHANES 2017–March 2020 pre-pandemic public-use sample meets a **current diabetes-status research definition**, using non-invasive information available at a screening encounter.
+Develop an research model that estimates the probability that an adult aged 20 or older in the NHANES 2017–March 2020 pre-pandemic public-use sample meets a **current diabetes-status research definition**, using non-invasive information available at a screening encounter.
 
 The preliminary outcome definition for feasibility testing is:
 

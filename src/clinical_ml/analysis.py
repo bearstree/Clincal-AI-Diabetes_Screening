@@ -130,7 +130,8 @@ def save_app_schema(selected: list[str], path: Path) -> None:
             },
         },
         "safety_text": (
-            "Educational research only; this result is not a diagnosis or medical advice."
+            "Research use only; personal non-commercial use only; commercial use requires "
+            "prior written approval. This result is not a diagnosis or medical advice."
         ),
     }
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

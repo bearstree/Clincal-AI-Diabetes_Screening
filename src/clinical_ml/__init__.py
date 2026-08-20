@@ -1,4 +1,4 @@
-"""Clinical AI portfolio package."""
+"""Clincal AI Diabetes Screening package."""
 
 from clinical_ml.metadata import PROJECT_STAGE, SAFETY_NOTICE
 

@@ -1,7 +1,7 @@
 project:
-  name: clinical-ai-portfolio
+  name: Clincal-AI-Diabetes_Screening
   stage: phase-8-release-ready
-  educational_only: true
+  research_only: true
 
 cohort:
   dataset: nhanes-2017-march-2020-pre-pandemic
@@ -41,5 +41,5 @@ deployment:
   web_client: web
   android_client: android
   huggingface_template: deployment/huggingface
-  github_repository: https://github.com/bearstree/clinical-ai-portfolio
-  huggingface_space: https://huggingface.co/spaces/weiyi/clinical-diabetes-screening
+  github_repository: https://github.com/bearstree/Clincal-AI-Diabetes_Screening
+  huggingface_space: https://huggingface.co/spaces/weiyi/Clincal-AI-Diabetes_Screening

@@ -1,9 +1,9 @@
 {
   "model_version": "1.0.0",
   "artifact": "clinical_diabetes_screening_v1.joblib",
-  "artifact_sha256": "eeff07066a6898af46daceae6b7708dabdc60de15bd0a0c60566ad1a42f9caf8",
+  "artifact_sha256": "68734105fdd43fac46b994a8d6ed53fd52f8381da9d4b7b483a48d5d70d48d9c",
   "training_data_sha256": "8d72ef30fd9d049e03baef7e3283b633b988fef457380880441ff27876cb2435",
-  "created_at_utc": "2026-08-20T01:25:37+00:00",
+  "created_at_utc": "2026-08-20T04:39:50+00:00",
   "selected_candidate": "logistic_compact_diastolic",
   "features": [
     "age_years",
