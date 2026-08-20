@@ -26,7 +26,7 @@ Enter age, waist circumference, diastolic blood pressure, and activity status, t
 
 ## Use the Android app
 
-Start the local API, open `android/` in current Android Studio, create an API 37 emulator, and run the debug app. Android's emulator reaches the host service at `10.0.2.2:8000`. Release builds reject cleartext transport and must be built with the deployed URL:
+Start the local API, open `android/` in current Android Studio, create an API 36 emulator, and run the debug app. Android's emulator reaches the host service at `10.0.2.2:8000`. Release builds reject cleartext transport and must be built with the deployed URL:
 
 ```powershell
 gradle -p android :app:assembleRelease -PclinicalApiBaseUrl=https://OWNER-SPACE.hf.space
