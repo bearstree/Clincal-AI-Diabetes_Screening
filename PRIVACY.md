@@ -1,6 +1,6 @@
 # Privacy notice
 
-This educational application accepts age, waist circumference, activity status, and diastolic blood pressure solely to calculate a response. The application code does not persist inputs or predictions, use cookies, include analytics, request identity, or create user accounts. The Android app requests only Internet permission and disables Android backup.
+This application accepts age, waist circumference, activity status, and diastolic blood pressure solely to calculate a response. The application code does not persist inputs or predictions, use cookies, include analytics, request identity, or create user accounts. The Android app requests only Internet permission and disables Android backup.
 
 The hosting provider may retain network metadata or platform logs under its own policy. Production operators must keep access-body logging disabled, use HTTPS, restrict log access and retention, and publish their actual hosting policy before inviting users. Do not enter names, identifiers, free text, or protected health information. This research tool is not intended for clinical care or emergencies.
 
