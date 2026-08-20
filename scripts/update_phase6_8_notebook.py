@@ -174,15 +174,17 @@ Full instructions are in `docs/user_guide.md`.
                 """
 ## 35. Publication status and final Phase 6–8 gate
 
-Local release preparation is complete. GitHub publication could not be executed because this checkout has no `origin`, GitHub CLI, or connected account. Hugging Face publication could not be executed because the CLI/token and required `OWNER/SPACE` identifier are absent. No repository name, visibility, identity, or credential was guessed; no secret was written to disk. Once the owner authenticates and supplies the destination identities, the commands/workflows above perform publication.
+Publication completed without writing credentials into source. The audited baseline commit `20aa229` was pushed to the public repository [bearstree/clinical-ai-portfolio](https://github.com/bearstree/clinical-ai-portfolio). The clean Docker Space bundle was uploaded to [weiyi/clinical-diabetes-screening](https://huggingface.co/spaces/weiyi/clinical-diabetes-screening); the source-linked deployment commit is `92787c8ecdb0e63480340686ac88e8ae0e85455c`.
+
+The live HTTPS service returned `status=ok` from `/health`, `status=ready` from `/ready`, and model `1.0.0` probability `0.103587325784365` (below threshold `0.13012152100670846`) for the documented synthetic input. The workstation Docker daemon and Android/Gradle toolchain were unavailable, so clean Docker and Android builds are enforced by GitHub Actions rather than claimed as local results.
 
 Verified locally on 2026-08-19:
 
-- Ruff: all checks passed; 48 Python files formatted.
+- Ruff: all checks passed; 49 Python files formatted.
 - mypy: no issues in 5 source files.
 - pytest: 11 passed, including the web delivery test.
 - Node: `web/app.js` syntax valid.
-- Space: clean bundle assembled successfully.
+- Space: clean bundle assembled, uploaded, and live-smoke-tested successfully.
 - Model: tracked artifact SHA-256 matches the manifest.
 - Notebook: parsed and validated after this append.
 """
