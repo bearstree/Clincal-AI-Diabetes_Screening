@@ -34,7 +34,8 @@ fun ScreeningApp() {
 
     Scaffold { padding ->
         Column(Modifier.padding(padding).verticalScroll(rememberScrollState()).padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            Text("Diabetes screening research tool", style = MaterialTheme.typography.headlineLarge)
+            Text("Diabetes Screening", style = MaterialTheme.typography.headlineLarge)
+            Text("Estimate probability means the model-estimated chance that a person with these inputs meets the project's current diabetes-status screening definition. It does not confirm or rule out diabetes.")
             Text("Personal, non-commercial research use only. Commercial use requires prior written approval. Not a diagnosis or medical advice.", color = MaterialTheme.colorScheme.error)
             NumberField("Age (20–80 years)", age) { age = it }
             NumberField("Waist circumference (40–200 cm)", waist) { waist = it }
@@ -51,7 +52,7 @@ fun ScreeningApp() {
                         .onSuccess { result = it; message = "" }.onFailure { message = "Service unavailable. Try again later." }
                     loading = false
                 }
-            }) { Text("Estimate research probability") }
+            }) { Text("Estimate probability") }
             if (message.isNotEmpty()) Text(message)
             result?.let {
                 HorizontalDivider(); Text("${(it.probability * 100).format1()}%", style = MaterialTheme.typography.displayMedium)

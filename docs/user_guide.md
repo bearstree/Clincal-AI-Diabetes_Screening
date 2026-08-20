@@ -22,7 +22,7 @@ The response contains a probability, whether it is above the validation-selected
 
 ## Use the web app
 
-Enter age, waist circumference, diastolic blood pressure, and activity status, then select **Estimate research probability**. The browser sends the values once to the same-origin API and displays the model version and threshold context. It does not save the values. For a separately hosted UI, set the `api-base-url` meta value in `web/index.html` and configure the exact HTTPS origin in `CLINICAL_ALLOWED_ORIGINS`.
+Enter age, waist circumference, diastolic blood pressure, and activity status, then select **Estimate probability**. This probability is the model-estimated chance that a person with those inputs meets the project's current diabetes-status screening definition. It does not confirm or rule out diabetes. The browser sends the values once to the same-origin API and displays the model version and threshold context. It does not save the values. For a separately hosted UI, set the `api-base-url` meta value in `web/index.html` and configure the exact HTTPS origin in `CLINICAL_ALLOWED_ORIGINS`.
 
 ## Use the Android app
 

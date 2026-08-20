@@ -9,7 +9,6 @@ This clean folder contains the versioned FastAPI entry point and container defin
 - `GET /health` — process health.
 - `GET /ready` — verifies that the checksummed model is loadable.
 - `GET /metadata` — model version, features, outcome, and safety notice.
-- `POST /v1/predict` — validated research probability and validation-derived flag.
+- `POST /v1/predict` — estimated screening probability and validation-derived flag.
 
 Do not log request bodies or deploy without TLS, rate limiting, request-size limits, and platform-managed secrets.
-

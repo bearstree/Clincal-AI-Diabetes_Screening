@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Clincal AI Diabetes Screening API",
+    "title": "Diabetes Screening API",
     "version": "1.0.0"
   },
   "paths": {

@@ -55,7 +55,7 @@ def load_bundle() -> dict[str, Any]:
 
 
 def create_app(bundle: dict[str, Any] | None = None) -> FastAPI:
-    app = FastAPI(title="Clincal AI Diabetes Screening API", version="1.0.0")
+    app = FastAPI(title="Diabetes Screening API", version="1.0.0")
     origins = [
         value.strip()
         for value in os.getenv("CLINICAL_ALLOWED_ORIGINS", "").split(",")

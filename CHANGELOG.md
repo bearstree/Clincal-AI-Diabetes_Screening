@@ -6,6 +6,7 @@ All notable changes follow Keep a Changelog conventions. Versions follow Semanti
 
 ### Changed
 
+- Renamed the user-facing tool to **Diabetes Screening**, shortened the action to **Estimate probability**, and added a plain-language explanation of the probability in both clients.
 - Renamed the GitHub repository and Hugging Face Space to `Clincal-AI-Diabetes_Screening`.
 - Replaced the MIT license with the Personal Use License: personal, non-commercial use only; commercial use requires prior written approval.
 - Removed the retired wording from the repository, API, model bundle, web client, Android client, and deployment card.

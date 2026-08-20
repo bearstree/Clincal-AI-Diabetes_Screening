@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="api-base-url" content="">
-  <title>Clincal AI Diabetes Screening</title>
+  <title>Diabetes Screening</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <main class="shell">
     <header>
-      <p class="eyebrow">Clincal AI Diabetes Screening</p>
-      <h1>Diabetes screening research tool</h1>
-      <p class="lede">Explore a research model built from public NHANES data. It estimates a statistical screening probability; it does not diagnose diabetes.</p>
+      <p class="eyebrow">Diabetes Screening</p>
+      <h1>Diabetes Screening</h1>
+      <p class="lede"><strong>Estimate probability</strong> means the model-estimated chance that a person with these inputs meets the project's current diabetes-status screening definition. It does not confirm or rule out diabetes.</p>
     </header>
     <section class="notice" role="note" aria-label="Safety and license notice">Research use only. Personal, non-commercial use only; commercial use requires prior written approval. Not medical advice. Do not use this result for treatment or emergency decisions.</section>
     <form id="risk-form" class="card">
@@ -22,11 +22,11 @@
         <label>Diastolic blood pressure <span>mmHg, 20–160</span><input name="diastolic_bp" type="number" min="20" max="160" step="0.1" required inputmode="decimal"></label>
         <label>Physically active <span>moderate/vigorous activity</span><select name="physically_active" required><option value="">Select…</option><option value="true">Yes</option><option value="false">No</option></select></label>
       </div>
-      <button id="submit" type="submit">Estimate research probability</button>
+      <button id="submit" type="submit">Estimate probability</button>
       <p id="form-status" class="status" role="status" aria-live="polite"></p>
     </form>
     <section id="result" class="card result" hidden aria-live="polite">
-      <p class="eyebrow">Research estimate</p><p id="probability" class="probability"></p><p id="interpretation"></p>
+      <p class="eyebrow">Estimated probability</p><p id="probability" class="probability"></p><p id="interpretation"></p>
       <dl><div><dt>Model version</dt><dd id="model-version"></dd></div><div><dt>Validation threshold</dt><dd id="threshold"></dd></div></dl>
       <p class="fineprint">A threshold is an evaluation setting, not a clinical diagnosis or treatment boundary. Discuss health concerns with a qualified clinician.</p>
     </section>

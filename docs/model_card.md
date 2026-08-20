@@ -1,4 +1,4 @@
-# Model Card: Clincal AI Diabetes Screening Model 1.0.0
+# Model Card: Diabetes Screening Model 1.0.0
 
 ## Summary
 

@@ -35,4 +35,4 @@ Prediction time is a hypothetical non-invasive screening encounter before labora
 
 ## Claims boundary
 
-The output may be called a research probability or screening score for the project's current-status definition. It must not be called a diagnosis, future-risk prediction, personalized medical advice, or proof of benefit.
+The output may be called an estimated probability or screening score for the project's current-status definition. It must not be called a diagnosis, future-risk prediction, personalized medical advice, or proof of benefit.

@@ -55,4 +55,6 @@ def test_prediction_rejects_bad_or_extra_inputs() -> None:
 def test_web_client_is_served() -> None:
     response = TestClient(create_app({})).get("/")
     assert response.status_code == 200
-    assert "Diabetes screening research tool" in response.text
+    assert "Diabetes Screening" in response.text
+    assert "Estimate probability" in response.text
+    assert "does not confirm or rule out diabetes" in response.text

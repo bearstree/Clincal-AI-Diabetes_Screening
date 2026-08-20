@@ -1,4 +1,4 @@
-# Clincal AI Diabetes Screening
+# Diabetes Screening
 
 [Live web application](https://weiyi-clincal-ai-diabetes-screening.hf.space) · [Hugging Face Space](https://huggingface.co/spaces/weiyi/Clincal-AI-Diabetes_Screening) · [API documentation](https://weiyi-clincal-ai-diabetes-screening.hf.space/docs)
 
