@@ -2,10 +2,8 @@ name: android
 
 on:
   pull_request:
-    paths: ["android/**", ".github/workflows/android.yml"]
   push:
     branches: [main]
-    paths: ["android/**", ".github/workflows/android.yml"]
 
 permissions:
   contents: read

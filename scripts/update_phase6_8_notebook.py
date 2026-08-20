@@ -184,7 +184,8 @@ Verified locally on 2026-08-19:
 - mypy: no issues in 5 source files.
 - pytest: 11 passed, including the web delivery test.
 - Node: `web/app.js` syntax valid.
-- Android: clean GitHub Actions debug build passed in run `32324401854`.
+- Android: clean GitHub Actions debug builds passed, including maintained-action run `32324664620`.
+- GitHub: `main` requires strict `python-quality` and `build-debug` checks, linear history, and resolved conversations; force-push and branch deletion are disabled.
 - Space: clean bundle assembled, uploaded, and live-smoke-tested successfully.
 - Model: tracked artifact SHA-256 matches the manifest.
 - Notebook: parsed and validated after this append.
