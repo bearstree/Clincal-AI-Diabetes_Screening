@@ -2,13 +2,13 @@
 
 [Live web application](https://weiyi-clinical-diabetes-screening.hf.space) · [Hugging Face Space](https://huggingface.co/spaces/weiyi/clinical-diabetes-screening) · [API documentation](https://weiyi-clinical-diabetes-screening.hf.space/docs)
 
-An end-to-end, educational clinical AI portfolio project using public-use CDC NHANES data: reproducible preprocessing, an evaluated screening model, a versioned API, a responsive web client, and a native Android client.
+An end-to-end, clinical AI portfolio project using public-use CDC NHANES data: reproducible preprocessing, an evaluated screening model, a versioned API, a responsive web client, and a native Android client.
 
-> Research and education only. This project is not a diagnostic tool, medical advice, a clinically validated system, or a medical device.
+> Research only. This project is not a diagnostic tool, medical advice, a clinically validated system, or a medical device.
 
 ## Current status
 
-Phases 0–8 are implemented. The release includes governance, verified data lineage, leakage-safe modeling, a checksummed model, FastAPI, web and Android clients, CI/CD, a deployed Docker Space, and release/privacy documentation.
+The release includes governance, verified data lineage, leakage-safe modeling, a checksummed model, FastAPI, web and Android clients, CI/CD, a deployed Docker Space, and release/privacy documentation.
 
 ## Intended use
 
